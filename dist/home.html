@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design web page using tailwindcss</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-slate-950 cursor-pointer">
+        <!--nav bar starts here-->
+        <nav class="bg-sky-400 w-full h-full justify-between text-center flex">
+            <div class="font-extrabold text-1xl text-white m-5 p-2">Tailwindcss Project</div>
+            <ul class=" md:flex hidden justify-between text-center m-5 p-2 font-semibold">
+                <li class="mr-4"><a href="#" class=" ">Home</a></li>
+                <li class="mr-4"><a href="#" class=" ">About</a></li>
+                <li class="mr-4"><a href="#" class=" ">Services</a></li>
+                <li class="mr-4"><a href="#" class=" ">Contact</a></li>
+            </ul>
+            <div class="hidden md:block bg-white font-extrabold text-1xl text-orange-400 p-2 m-5 rounded-sm">Login/SignUp</div>
+            <div class="block md:hidden"><a class="text-6xl text-black" href="#">&#8801;</a></div>
+        </nav>
+        <!--nav bar ends here-->
+        <!--hero section starts here-->
+        <header>
+            <img class="hidden md:block w-full" src="/images/64ac9b4418ae081acf7be4e8_hero-section-examples.jpg" alt="" srcset="">
+            <img class="block md:hidden w-full" src="/images/fddfbbd531da734ac26876f004889b60.png" alt="" srcset="">
+        </header>
+        <!--hero section ends here-->
+        <!--Content section starts here-->
+        <div class="w-full h-auto flex flex-wrap text-center items-center flex-col">
+            <div class="w-full h-auto flex flex-wrap text-center items-center mt-2 flex-col md:mt-3">
+                <p class="text-wrap font-semibold text-2xl text-orange-400">Welcome To Website plain</p>
+                <div class="border-b-4 rounded-2xl border-blue-500 w-40 h-1 mt-2"></div>
+            </div>
+            <div class="w-full flex flex-wrap justify-evenly mt-5">
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/bc14c559-783f-4f78-b7a7-7a638810c7da.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">1000+</p>
+                    <p class="text-gray-300 text-2xl">Web Devlopment Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/e6cac10c-85fd-4315-9def-48aa3094a3e9.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">700+</p>
+                    <p class="text-gray-300 text-2xl">Data Science Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/42cf657e-da8b-4c07-b02b-22164a31b904.png" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">500+</p>
+                    <p class="text-gray-300 text-2xl">Ai & Machine Learning Projects</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-auto flex flex-wrap text-center items-center flex-col border-b-2 border-t-2 border-gray-400 p-4">
+            <div class="w-full h-auto flex flex-wrap text-center items-center mt-2 flex-col md:mt-3">
+                <p class="text-wrap font-semibold text-2xl text-orange-400">Welcome To Website main div border</p>
+                <div class="border-b-4 rounded-2xl border-blue-500 w-40 h-1 mt-2"></div>
+            </div>
+            <div class="w-full flex flex-wrap justify-evenly mt-5">
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/bc14c559-783f-4f78-b7a7-7a638810c7da.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">1000+</p>
+                    <p class="text-gray-300 text-2xl">Web Devlopment Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/e6cac10c-85fd-4315-9def-48aa3094a3e9.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">700+</p>
+                    <p class="text-gray-300 text-2xl">Data Science Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/42cf657e-da8b-4c07-b02b-22164a31b904.png" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">500+</p>
+                    <p class="text-gray-300 text-2xl">Ai & Machine Learning Projects</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-auto flex flex-wrap text-center items-center flex-col">
+            <div class="w-full h-auto flex flex-wrap text-center items-center mt-2 flex-col md:mt-3">
+                <p class="text-wrap font-semibold text-2xl text-orange-400">Welcome To Website child border</p>
+                <div class="border-b-4 rounded-2xl border-blue-500 w-40 h-1 mt-2"></div>
+            </div>
+            <div class="w-full flex flex-wrap justify-evenly mt-5">
+                <div class="w-44 flex flex-col items-center mb-12 border-4 border-blue-400 rounded-2xl p-2">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/bc14c559-783f-4f78-b7a7-7a638810c7da.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">1000+</p>
+                    <p class="text-gray-300 text-2xl">Web Devlopment Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12 border-4 border-blue-400 rounded-2xl p-2">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/e6cac10c-85fd-4315-9def-48aa3094a3e9.svg" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">700+</p>
+                    <p class="text-gray-300 text-2xl">Data Science Projects</p>
+                </div>
+                <div class="w-44 flex flex-col items-center mb-12 border-4 border-blue-400 rounded-2xl p-2">
+                    <img class="w-24 h-24 " src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/42cf657e-da8b-4c07-b02b-22164a31b904.png" alt="pic"></img>
+                    <p class="text-white text-2xl font-mono">500+</p>
+                    <p class="text-gray-300 text-2xl">Ai & Machine Learning Projects</p>
+                </div>
+            </div>
+        </div>
+         <!--Content section starts here-->
+       <footer class="bg-sky-400 w-full h-56">
+        <div class="w-full h-auto border-2 border-gray-300 md:flex justify-center"><div><a class="text-3xl p-2 text-black" href="#">&#8801;</a></div></div>
+       </footer>
+</body>
+</html>
